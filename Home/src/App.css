@@ -1,42 +1,87 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.tw-text-small {
+    color: #fff;
+    margin: 0 5% ;
+    font-family: monospace ;
+    font-weight: lighter;
+    font-size: 15px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.tw-text-medium {
+    color: #fff;
+    margin: 0 5% ;
+    font-family: monospace ;
+    font-weight: bold;
+    font-size: 20px;
+
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tw-img-logo {
+    margin: 5%;
+    max-width: 250px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.tw-img-logo-sime {
+    margin: 5%;
+    max-width: 50px;
 }
 
-.card {
-  padding: 2em;
+.tw-svg-logo-sime {
+    width: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+/*Centro Home*/
+.tw-img-backgroundmain {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    max-width: 100%;
+    height: 700px;
+    opacity: 40%;
+    background-size: cover;
+    background-image: url('https://bing.com/th/id/BCO.c400337a-5d07-4339-9be8-afe3e5e8a522.png');
+}
+
+.tw-infomain {
+
+}
+
+/*Cabecera Home*/
+.tw-header-main {
+    background: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.tw-line {
+    background: hsl(24, 100%, 55%);
+    display: flex;
+    justify-content: space-between;
+    height: 8px;
+}
+
+/*Pie de pagina Home*/
+.tw-footer-main {
+    background: hsl(0, 4%, 5%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tw-footer-main-internal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tw-footer-main-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+    width: 30%;
+}
+
+.tw-footer-lower-container {
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    text-align: center;
 }
